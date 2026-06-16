@@ -10,22 +10,11 @@ node_modules/
 .env.production.local
 /spree-playwright-framework/.env
 
-# Playwright & Allure reports/results
-allure-report/
-allure-results/
-playwright-report/
-test-results/
-/spree-playwright-framework/allure-report/
-/spree-playwright-framework/allure-results/
-/spree-playwright-framework/playwright-report/
-/spree-playwright-framework/test-results/
-
-# System logs & screenshots
+# System logs
 logs/
 *.log
 npm-debug.log*
 /spree-playwright-framework/logs/
-/spree-playwright-framework/screenshots/
 
 # Temporary directories
 temp-clone/
