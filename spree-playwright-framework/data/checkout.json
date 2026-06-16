@@ -1,0 +1,34 @@
+{
+  "validShipping": {
+    "firstName": "Muhammad",
+    "lastName": "Umer",
+    "address": "123 Test Street",
+    "city": "New York",
+    "state": "New York",
+    "zipCode": "10001",
+    "phone": "1234567890",
+    "country": "United States"
+  },
+  "emptyShipping": {
+    "firstName": "",
+    "lastName": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "zipCode": "",
+    "phone": "",
+    "country": ""
+  },
+  "invalidPostalCode": {
+    "firstName": "Muhammad",
+    "lastName": "Umer",
+    "address": "123 Test Street",
+    "city": "New York",
+    "state": "New York",
+    "zipCode": "INVALID",
+    "phone": "1234567890",
+    "country": "United States"
+  },
+  "validPromoCode": "SPREE2024",
+  "invalidPromoCode": "INVALIDCODE999"
+}

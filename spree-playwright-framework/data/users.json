@@ -1,0 +1,30 @@
+{
+  "valid": {
+    "email": "m.umer.ahmed.abbasi@gmail.com",
+    "password": "Secret#123"
+  },
+  "invalidEmail": {
+    "email": "invalid@@@email",
+    "password": "Secret#123"
+  },
+  "wrongPassword": {
+    "email": "m.umer.ahmed.abbasi@gmail.com",
+    "password": "WrongPassword123"
+  },
+  "emptyCredentials": {
+    "email": "",
+    "password": ""
+  },
+  "emptyPassword": {
+    "email": "m.umer.ahmed.abbasi@gmail.com",
+    "password": ""
+  },
+  "sqlInjection": {
+    "email": "' OR 1=1 --",
+    "password": "' OR 1=1 --"
+  },
+  "specialChars": {
+    "email": "test!@#$%^&*()@email.com",
+    "password": "Test@123"
+  }
+}
