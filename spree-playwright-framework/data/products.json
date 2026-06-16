@@ -1,0 +1,17 @@
+{
+  "validSearch": "espresso",
+  "invalidSearch": "xyznonexistentproduct12345",
+  "partialSearch": "coffee",
+  "categoryFilter": "Kitchen",
+  "subcategoryLink": "/us/en/c/kitchen/coffee-machines",
+  "productsPageURL": "/us/en/products",
+  "sampleProduct": {
+    "name": "Automatic Espresso Machine",
+    "searchTerm": "espresso"
+  },
+  "categories": [
+    "Kitchen",
+    "Air & Climate",
+    "Laundry & Cleaning"
+  ]
+}

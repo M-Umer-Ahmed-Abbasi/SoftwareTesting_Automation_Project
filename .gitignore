@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+/spree-playwright-framework/node_modules/
+
+# Environment configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/spree-playwright-framework/.env
+
+# Playwright & Allure reports/results
+allure-report/
+allure-results/
+playwright-report/
+test-results/
+/spree-playwright-framework/allure-report/
+/spree-playwright-framework/allure-results/
+/spree-playwright-framework/playwright-report/
+/spree-playwright-framework/test-results/
+
+# System logs & screenshots
+logs/
+*.log
+npm-debug.log*
+/spree-playwright-framework/logs/
+/spree-playwright-framework/screenshots/
+
+# Temporary directories
+temp-clone/
